@@ -176,6 +176,83 @@ textarea {
   margin: 0 0 2rem;
 }
 
+.section-heading {
+  margin-bottom: 2rem;
+}
+
+.project-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.project-card {
+  padding: 1.6rem;
+  border-radius: 24px;
+}
+
+.project-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(124, 140, 255, 0.14);
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.project-image-wrap {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.project-image {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  display: block;
+  background: white;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.project-card h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1.28rem;
+}
+
+.project-card p {
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+
+.project-highlights {
+  padding-left: 1.15rem;
+  color: var(--text);
+  display: grid;
+  gap: 0.6rem;
+}
+
+.project-highlights li::marker {
+  color: var(--accent-2);
+}
+
+.project-card--soon {
+  border-style: dashed;
+  background: linear-gradient(135deg, rgba(124, 140, 255, 0.12), rgba(0, 212, 255, 0.12));
+}
+
 /* =========================
    Header & nav
 ========================= */

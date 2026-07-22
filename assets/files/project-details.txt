@@ -1,0 +1,3 @@
+Hotel Booking Data Analysis & Dashboard Project
+Excel | Data Cleaning | KPI Reporting
+This file contains project summary details for the portfolio.
